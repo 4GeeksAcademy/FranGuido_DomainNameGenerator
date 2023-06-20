@@ -13,12 +13,11 @@
   let domain = [".com", ".cr", ".int"];
 
   
-
+ // Generating possible names
   for (let i = 0; i < adjective.length; i++) {
     for (let j = 0; j < noun.length; j++) {
       for (let k = 0; k < domain.length; k++) {
-        let Domain = adjective[i] + noun[j] + domain[k];
-        console.log(Domain);
+        console.log(adjective[i] + noun[j] + domain[k]);
       }
     }
   };
